@@ -1,0 +1,21 @@
+body {
+  background-image:url("../images/cloth.jpg");
+  background-repeat:repeat;
+  overflow:scroll;
+}
+#mydiv {
+  background-color:rgba(158, 204, 65);
+  color:black;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  height:80%;
+  font-size:150%;
+}
+#description {
+  background-color:green;
+  color:black;
+  text-align:center;
+  font-size:35px;
+  font-family:monospace;
+}
