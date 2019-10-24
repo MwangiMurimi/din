@@ -1,21 +1,26 @@
+html {
+  height:665px;
+}  
 body {
-  background-image:url("../images/cloth.jpg");
-  background-repeat:repeat;
-  overflow:scroll;
+background-image:url("../images/cloth.jpg");
+font-family: monospace;
+background-repeat:repeat;
 }
 #mydiv {
-  background-color:rgba(158, 204, 65);
   color:black;
-  position: fixed;
-  top: 10%;
-  left: 10%;
-  height:80%;
-  font-size:150%;
+  top:66.5px;
+  left:10%;
+  width: 80%;
+  height:560px;
+  font-size:large;
 }
-#description {
-  background-color:green;
-  color:black;
-  text-align:center;
-  font-size:35px;
-  font-family:monospace;
+.img1 {
+  position: absolute;
+  width:18px;
+  left:0px;
+}
+.img2 {
+  position: absolute;
+  width:18px;
+  right:0px;
 }
