@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Din - Akan Name Generator</title>
+    <title>Din</title>
     <link href="images/icon.jpg" rel="icon">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container-fluidtext-center" id="description">
-      <h5>FILL THE FORM BELOW AND GET YOUR AKAN NAME!</h5>
+    <script src="js/scripts.js"></script>
+    <div class="container-fluid text-center" id="description">
+      <h5>Generate your Akan name in only two steps!</h5>
     </div>
     <div class="container">
       <div class="row">
         <div class="card bg-success" id="mydiv">
           <img class="mx-auto" src="images/h1.png" width="100px">
-          <h5>&nbsp SEX</h5>
-          <p>&nbsp &nbsp<input type="checkbox" id="male"> Male</p>
-          <p>&nbsp &nbsp<input type="checkbox" id="female"> Female</p>
-          <h5>&nbsp BIRTHDAY</h5>
+          <h5>&nbsp Step one: Fill in your gender.</h5>
+          <p>&nbsp &nbsp<input type="text" placeholder="Male / Female" id="gender">
+          <h5>&nbsp Step two: Fill in your birthday.</h5>
           <p>&nbsp &nbsp<input id="date" type="date"></p>
-          <button class="mx-auto" onclick="x()">SUBMIT</button>
+          <button class="mx-auto" onclick="x()">GENERATE!</button>
           <br>
-          <input class="mx-auto" type="textbox" placeholder="Your results will be displayed here." id="name">
+          <input class="mx-auto" type="textbox" placeholder="Your Akan name is..." id="name">
         </div>
       </div>
     </div>
-    <script src="js/scripts.js"></script>
-
   </body>
 </html>

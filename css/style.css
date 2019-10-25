@@ -26,3 +26,12 @@ h5 {
   width:80%;
   text-align: center;
 }
+input {
+  border:none;
+  text-align: center;
+}
+button {
+  border:none;
+  background-color:rgb(0, 77, 0, 0.5);
+  font-weight:bolder;
+}
