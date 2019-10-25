@@ -8,19 +8,21 @@ background-repeat:repeat;
 }
 #mydiv {
   color:black;
-  top:66.5px;
+  top:63px;
   left:10%;
   width: 80%;
   height:560px;
   font-size:large;
 }
-.img1 {
-  position: absolute;
-  width:18px;
-  left:0px;
+#description {
+  text-align:center;
+  background-color:rgba(185, 255, 138, 0.15);
 }
-.img2 {
-  position: absolute;
-  width:18px;
-  right:0px;
+h5 {
+  font-weight: bolder;
+}
+#name {
+  height:50px;
+  width:80%;
+  text-align: center;
 }

@@ -7,18 +7,25 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <script src="js/scripts.js"></script>
-    <img class="img1" src="images/icon.jpg">
-    <img class="img2" src="images/icon.jpg">
-    <div class="container-fluid bg-success text-center" id="description">
-      FILL THE FORM BELOW AND GET YOUR AKAN NAME!
+    <div class="container-fluidtext-center" id="description">
+      <h5>FILL THE FORM BELOW AND GET YOUR AKAN NAME!</h5>
     </div>
     <div class="container">
       <div class="row">
         <div class="card bg-success" id="mydiv">
           <img class="mx-auto" src="images/h1.png" width="100px">
+          <h5>&nbsp SEX</h5>
+          <p>&nbsp &nbsp<input type="checkbox" id="male"> Male</p>
+          <p>&nbsp &nbsp<input type="checkbox" id="female"> Female</p>
+          <h5>&nbsp BIRTHDAY</h5>
+          <p>&nbsp &nbsp<input id="date" type="date"></p>
+          <button class="mx-auto" onclick="x()">SUBMIT</button>
+          <br>
+          <input class="mx-auto" type="textbox" placeholder="Your results will be displayed here." id="name">
         </div>
       </div>
     </div>
+    <script src="js/scripts.js"></script>
+
   </body>
 </html>
