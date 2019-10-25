@@ -2,7 +2,7 @@ function x() {
   var date = document.getElementById("date").value;
   var d = new Date(date);
   var x = d.getDay();
-  var gender = document.getElementById("gender").value;
+  var gender = document.getElementById("gender").value.toLowerCase();
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"] 
   if (x===0 && gender==="male") {
