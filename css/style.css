@@ -78,3 +78,16 @@ img {
   background-color: black;
   height:600px;
 }
+a {
+  text-decoration: underline;
+  color:black;
+}
+a:hover {
+  color:green;
+  text-decoration: underline;
+}
+#m {
+  background-color: rgba(106, 255, 113, 0.2);
+  font-weight: bolder;
+  color:black;
+}
