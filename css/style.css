@@ -11,6 +11,7 @@ font-family: monospace;
   color:black;
   font-size:large;
   height:930px;
+  background-color: white;
 }
 #description {
   text-align:center;
@@ -66,7 +67,7 @@ input#gender {
   padding: 12px 16px;
   z-index: 1;
   font-size: x-large;
-  width:300px
+  width:320px
 }
 
 .dropdown:hover .dropdown-content {
@@ -77,8 +78,8 @@ img {
   float:left;
 }
 img:hover {
-  transition: transform 2.5s ease;
-  transform: scale(1.5);
+  transition: transform 5s ease;
+  transform: scale(1.2);
 }
 #pics {
   background-image:url(../images/cloth.jpg);
