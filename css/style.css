@@ -1,6 +1,5 @@
 html {
   overflow:scroll;
-  height:500px;
 }
 body {
 font-family: monospace;
@@ -8,7 +7,7 @@ font-family: monospace;
 #mydiv {
   color:black;
   font-size:large;
-  height:580px;
+  height:600px;
 }
 #description {
   text-align:center;
@@ -26,12 +25,12 @@ input#name {
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
-  background-color: #ffffff;
-  margin-top:0px;
+  background-color: hsl(120, 100%, 25%, 30%);
+  margin-top:15px;
 }
 button {
   border:none;
-  background-color:rgb(0, 77, 0, 0.5);
+  background-color:hsl(120, 100%, 25%);
   font-weight:bolder;
 }
 input#date {
@@ -39,8 +38,16 @@ input#date {
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #ffffff;
-    margin-top:0px;
+    background-color: hsl(120, 100%, 25%, 30%);
+    margin-top:10px;
+}
+input#gender {
+  width: 60%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: hsl(120, 100%, 25%, 30%);
+  margin-top:10px;
 }
 .dropdown {
   position: relative;
@@ -69,5 +76,5 @@ img {
   background-image:url(../images/cloth.jpg);
   background-repeat: repeat;
   background-color: black;
-  height:580px;
+  height:600px;
 }
