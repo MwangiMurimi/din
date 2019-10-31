@@ -4,19 +4,19 @@ html {
 
 body {
   font-family: monospace;
+  background-image: url(../images/leaves.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
-
-#topbar {
-  background-color: rgb(40, 167, 69);
-}
-
 #mydiv {
   color: black;
   font-size: large;
-  height: 930px;
-  background-color: white;
+  height: 500px;
+  background-color: rgba(40, 167, 70, 0.7);
 }
-
+p {
+  text-align: center;
+}
 #description {
   text-align: center;
 }
@@ -36,13 +36,13 @@ input#name {
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
-  background-color: rgb(40, 167, 69, 0.25);
+  background-color: rgba(255, 255, 255, 0.75);
   margin-top: 15px;
 }
 
 button {
   border: none;
-  background-color: #28a745;
+  background-color: rgb(40, 167, 69);
   font-weight: bolder;
 }
 
@@ -51,79 +51,15 @@ input#date {
   padding: 16px 20px;
   border: none;
   border-radius: 4px;
-  background-color: rgb(40, 167, 69, 0.25);
+  background-color: rgba(255, 255, 255, 0.75);
   margin-top: 10px;
 }
-
-input#gender {
-  width: 60%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: rgb(40, 167, 69, 0.25);
-  margin-top: 10px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top: 20px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(40, 167, 69);
-  min-width: 160px;
-  padding: 12px 16px;
-  z-index: 1;
-  font-size: x-large;
-  width: 320px
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 img {
-  overflow: hidden;
   float: left;
 }
-
-img:hover {
-  transition: transform 5s ease;
-  transform: scale(1.2);
+h4 {
+  font-weight:bolder;
 }
-
-#pics {
-  background-image: url(../images/cloth.jpg);
-  background-repeat: repeat;
-  background-color: black;
-  height: 930px;
-}
-
-a {
-  text-decoration: underline;
-  color: black;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-#description:hover {
-  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
-}
-
-#rights {
-  text-align: center;
-  top: 100%
-}
-
-.bottom-text {
-  bottom: 0px;
-  position: absolute;
-  font-size: smaller;
-  text-align: left;
+#description {
+  background-color:rgba(255, 255, 255, 0.2);
 }

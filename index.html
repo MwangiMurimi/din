@@ -11,42 +11,28 @@
 <body>
   <script src="js/scripts.js"></script>
   <div class="container-fluid text-center" id="description">
-  </div>
-  <div class="container-fluid">
-    <div class="row" id="topbar">
-      <img src="images/h1.png">
-      <div class="dropdown">
-        <h5 id="description">&nbsp A short description &#x1F604</h5>
-        <p class="dropdown-content">Welcome to Din! An Akan name generator. The Akan people of Ghana name their children
-          in part according to the day of the week they were born on. These names, which are linked to the soul and
-          character of the person, are a significant part of their culture, which spreads accross West Africa and the
-          African diaspora. Fill the form on the right to become a part of this beautiful tradition!</p>
-      </div>
-    </div>
     <div class="row">
-      <div class="col-md-3 col-lg-3" id="pics">
-        <div id="info">
-          <img src="images/akan1.jpg" width="100%">
-          <img src="images/akan2.jpeg" width="100%">
-          <img src="images/akan3.jpg " width="100%">
-          <img src="images/akan4.jpg" width="100%">
-        </div>
+      <div class="col-12" id="description">
+        <img src="images/icon.jpg">
+        <h1 class="text-center"><strong>WELCOME!</strong></h1>
+        <img src="images/akan.jpg" width="40%">
+        <h4>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. This naming tradition is shared throughout West Africa and the African diaspora.</h4>
+        <h4>The Akan name generator is a two-step process. Fill in the form below and get your Akan name instantly!</h4>  
       </div>
-      <div class="col-md-9 col-lg-9 text-center" id="mydiv">
+      <div class="col-12 text-center" id="mydiv">
         <br>
         <br>
         <h3><strong>Fill in the form below to get your Akan name.</strong></h3>
         <h5>Step one: Fill in your gender.</h5>
-        <p><input type="text" placeholder="Male / Female" id="gender">
+            <input type="radio" name="gender" value="male" id="male">
+            Male
+            &nbsp;&nbsp;<input type="radio" name="gender" value="female" id="female">
+            Female
         <h5>Step two: Fill in your birthday.</h5>
         <p><input id="date" type="date"></p>
         <button class="mx-auto" onclick="x()">GENERATE!</button>
         <br>
         <input class="mx-auto" type="textbox" placeholder="Your Akan name is..." id="name">
-        <div class="bottom-text">
-          <p>For more info on the Akan people, check out <a href="https://en.wikipedia.org/">Wikipedia</a>'s articles on <a href="https://en.wikipedia.org/wiki/Akan_people">Akan people</a>, <a href="https://en.wikipedia.org/wiki/Akan_language">Akan language</a> and <a href="https://en.wikipedia.org/wiki/Akan_names">Akan names</a>.</p>
-          <p id="rights">All rights to the photographs used, downloaded from <a href="http://images.google.com">Google Images</a>, belong to the respective original owners.</p>
-        </div>
       </div>
     </div>
   </div>
